@@ -6,7 +6,7 @@
 
 body {
     background-color: #020A18;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
 }
 
 .container {
@@ -17,7 +17,7 @@ body {
 
 .header_link {
     color: var(--ffffff, #FFF);
-    /* font-family: Open Sans; */
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -30,6 +30,7 @@ body {
 .header_flex {
     display: flex;
     justify-content: center;
+    
 }
 
 .header_link:hover {
@@ -44,7 +45,7 @@ body {
 
 .subject {
     color: var(--3-a-68-b-8, #3A68B8);
-    /* font-family: Open Sans; */
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -55,7 +56,7 @@ body {
 
 .caption {
     color: var(--ffffff, #FFF);
-    /* font-family: Open Sans; */
+    font-family: 'Open Sans', sans-serif;
     font-size: 55px;
     font-style: normal;
     font-weight: 800;
@@ -66,8 +67,7 @@ body {
 
 .title {
     color: var(--ffffff, #FFF);
-    /* font-family: Open Sans; */
-    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 160%; /* 28.8px */
@@ -77,7 +77,7 @@ body {
 
 .button {
     color: var(--ffffff, #FFF);
-    /* font-family: Open Sans; */
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -96,21 +96,14 @@ body {
     border-radius: 5px;
 }
 
-.big_logo {
-    width: 54.604px;
-    height: 49.972px;
-    /* flex-shrink: 0; */
-    width: 55.793px;
-    height: 58.163px;
-    /* flex-shrink: 0; */
-}
+
 
 .flex {
     display: flex;
     width: 1146px;
     justify-content: space-evenly;
     align-items: center;
-    gap: 128px;
+    /* gap: 128px; */
     flex-direction: row;
     flex-wrap: nowrap
 }
@@ -127,10 +120,22 @@ body {
     margin-bottom: 99px;
 }
 
+.img_1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dot {
+    align-self: flex-start
+}
 
 .caption {
     color: var(--ffffff, #FFF);
-    /* font-family: Open Sans; */
+    font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -140,7 +145,7 @@ body {
 
 .desc {
     color: var(--ffffff, #FFF);
-    /* font-family: Open Sans; */
+    font-family: 'Open Sans'sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -249,7 +254,7 @@ color: #FFF;
 
 .slogan {
     color: #FFF;
-    /* font-family: Open Sans; */
+    font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -259,7 +264,7 @@ color: #FFF;
 
 .list {
     color: var(--ffffff, #FFF);
-    /* font-family: Open Sans; */
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -268,9 +273,19 @@ color: #FFF;
     margin: 20px;
 }
 
+
 .footer {
     display: flex;
     justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 46px;
+}
+
+.info {
+        display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline
 }
 
 .subtitle {
@@ -283,6 +298,7 @@ color: #FFF;
     margin: 33px;
 }
 
+
 .com {
     color: var(--ffffff, #FFF);
     /* font-family: Roboto; */
@@ -291,6 +307,31 @@ color: #FFF;
     font-weight: 500;
     line-height: normal;
     margin: 24px;
+    gap: 9px;
+    display: flex;
+    align-items: center;
+}
+
+    
+
+.maill img {
+    margin-right: 9px; /* Задайте нужный размер отступа */
+}
+
+.phone img {
+    margin-right: 10px;
+}
+
+.addres img {
+    margin-right: 10px;;
+}
+
+
+.asid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline
 }
 
 .text {
@@ -310,11 +351,19 @@ color: #FFF;
         font-style: italic;
         font-weight: 100;
         line-height: normal;
+        width: 261px;
+    }
+
+    .dop_info {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: baseline
     }
 
     .subjec {
         color: var(--ffffff, #FFF);
-        /* font-family: Roboto; */
+        font-family: 'Open Sans', sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -324,9 +373,14 @@ color: #FFF;
 
     .web {
         color: var(--ffffff, #FFF);
-        /* font-family: Roboto; */
+        font-family: 'Open Sans', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+        margin: 24px;
+    }
+
+    .img img {
+        margin-right: 24px;
     }
